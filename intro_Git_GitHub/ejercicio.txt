@@ -1,2 +1,1 @@
-mi primer repositorio online remoto 
- 
+"Mi primer ejercicio en un repositorio remoto"
