@@ -1,0 +1,11 @@
+/* etiquetas genericas */
+p{
+    color: red;
+}
+/* marcas de clases .nombre de clase*/
+.saludo{
+    color: brown;
+}
+.negritas{
+    font-weight: bold;
+}
