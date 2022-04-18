@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        table,tr,td,th{
+            border: 1px solid black;
+            text-align: center;
+        }
+        table{
+            border-collapse: collapse;
+        
+        }
+    
+    </style>
+    <!-- ----------etiqueta de navegacion -->
+    <nav>
+        <ul>
+            <a href="#tab">Tablas</a>
+        </ul>
+    </nav>
+<h2 id="tab">Tablas</h2>
+<table>
+    <thead>
+        <tr>
+            <th>encabezado 1</th>
+            <th>encabezado 2</th>
+            <th>encabezado 3</th>
+        </tr>
+    </thead>
+    <tbody><tr>
+        <td>A</td>
+        <td>B</td>
+        <td>C</td>
+    </tr></tbody>
+    <tr>
+        <td>D</td>
+        <td>E</td>
+        <td>F</td>
+    </tr>
+    <tfoot></tfoot>
+</table>
+<h2>Tabla de pianistas</h2>
+<table>
+    <!-- encabezado -->
+    <thead>
+        <!-- crear una fila -->
+        <tr>
+            <!-- crear columnas -->
+            <th>Year</th>
+            <th>Pianist</th>
+            <th>Label</th>
+            <th>Ref</th>
+        </tr>
+    </thead>
+    <!-- cuerpod d la tabla -->
+    <tbody>
+       <tr>
+           <td>1997</td>
+           <td>Konstantin Scherbakov</td>
+           <td>Naxos Records</td>
+           <td>[69]</td>
+       </tr>
+       <tr>
+           <td>2000</td>
+           <td>Riccardo Sandiford</td>
+           <td>Bongiovanni</td>
+           <td>[70]</td>
+       </tr>
+       <tr>
+           <td>2016</td>
+           <td>Michele D'Ambrosio</td>
+           <td>Brilliant Classics</td>
+           <td>[71]</td>
+       </tr>
+       <tr>
+           <td>2021</td>
+           <td>Giovanna Gatto</td>
+           <td>	Toccata Classics</td>
+           <td>[72]</td>
+       </tr>
+    </tbody>
+    <!-- pie de la tabla  -->
+    <tfoot></tfoot>
+</table>
+<h3>Tabla con celdas extendidas</h3>
+<table>
+<tbody>
+    <tr>
+        <td colspan="3">alfa</td>
+        <td>bravo</td>
+        <td rowspan="2">charly</td>
+    </tr>
+<tr>
+    <td>delta</td>
+    <td>echo</td>
+    <td>foxtrot</td>
+    <td>golf</td>
+</tr>
+<tr>
+    <td>hotel</td>
+    <td colspan="3" rowspan="2">india</td>
+    <td>juliet</td>
+</tr>
+<tr>
+    <td>kilo</td>
+    <td>lima</td>
+</tr>
+<tr>
+    <td>mike</td>
+    <td>november</td>
+    <td>oscar</td>
+    <td>papa</td>
+    <td>quebec</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

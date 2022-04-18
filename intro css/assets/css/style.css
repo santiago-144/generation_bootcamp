@@ -1,0 +1,53 @@
+:root{
+
+    --ancho: 100px;
+    --largo:100px;
+    --background:thistle;
+    --background2:rgb(142, 142, 240); 
+
+}
+.cuadro{
+    width:var(--ancho);
+    height:var(--largo);
+    background:var(--background);
+    border: 1px solid greenyellow;
+    border-radius:5px;
+}
+#forma {
+    width:var(--ancho);
+    height:var(--largo);
+    background:var(--background);
+    border: 1px solid red;
+    border-radius: 5px;
+
+}
+.color
+{width:var(--ancho);
+    height:var(--largo);
+    background:var(--background2);
+    border: 1px solid red;
+    border-radius: 5px;
+
+}
+.color-texto{
+    color:rgb(red, green, blue);
+    background-color: azure;
+}
+.forma{
+    width: auto;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+.borde{
+    border: 3px solid black;
+    border-top: 4px solid green;
+    border-right: 3px solid yellow;
+    border-left: 3px solid brown;
+    border-bottom: 4px solid blue;
+}
+p{
+    font-family:cursive;
+    font-size: medium;
+    font-weight: lighter;
+}

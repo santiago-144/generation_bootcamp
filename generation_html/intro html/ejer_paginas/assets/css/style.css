@@ -1,0 +1,20 @@
+.theme{
+    background-color: rgb(218, 253, 253);
+    
+}
+#titulo1{
+    text-align: center;
+    color: black;
+    opacity: 0.9;
+}
+p{
+    text-align:justify;
+}
+.info{
+    font-style: italic;
+    color: rgb(16, 66, 110);
+}
+ul{
+    list-style:  circle;
+    
+}
