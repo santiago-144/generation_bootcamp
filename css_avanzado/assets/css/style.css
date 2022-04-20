@@ -1,0 +1,44 @@
+/* body{
+    position: relative;
+} */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    /* position: relative;
+    top: 100px;
+    z-index: -1; */
+}
+.cuadro{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    /* display: inline-block; */
+}
+.div1{
+    background-color: azure;
+    position: static;
+    z-index:-1;
+}
+.div2{
+    background-color: rgb(29, 240, 240);
+    position:sticky;
+    top: 50px;
+   /*  position: absolute;/* absolute:se posiciona de acuerdo a su ancestro anterior  
+    top:100px;
+    left: 300px; */
+    /*position: relative; modificar la poscicion a partir de su posicion original  */
+    /* left: 100px;
+    z-index: 11; */
+
+}
+.div3{
+    background-color: rgb(21, 139, 27);
+}
+.padre{
+    width: 500px;
+    height: 400px;
+    position: relative;
+}
