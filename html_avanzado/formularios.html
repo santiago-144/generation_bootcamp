@@ -51,36 +51,32 @@
     </form> 
 -->
     <!-- dom inicio -->
-    <script>
-        const color = document.querySelector("#color");
-        console.log(color);
-        color.addEventListener("change", function (e) {
-            document.body.style.backgroundColor = e.target.value;
-        });
-    </script>
+    <input type="color"  id="color" value="#fff000">
     <hr />
     <h1>Formulario</h1>
-    <form class="formulario">
+    <form class="formulario" id="formularioDatos">
         <div class="nombre">
             <label class="acomodolabel" for="name">Nombre</label>
-            <input class="name-color" id="name" type="text" placeholder="name" required />
+            <input  name="Nombre" class="name-color" id="name" type="text" placeholder="name" required />
         </div>
         <div class="apellido">
             <label class="acomodolabel" for="ape">Apellido</label>
-            <input class="name-color" id="ape" type="text" placeholder="apellido" />
+            <input name="Apellido" class="name-color" id="ape" type="text" placeholder="apellido" />
         </div>
         <div class="pass">
             <label class="acomodolabel" for="pasw">password</label>
-            <input class="name-color" id="pasw" type="password" placeholder="contraseña" required />
+            <input name="password" class="name-color" id="pasw" type="password" placeholder="contraseña" required />
         </div>
         <div class="email">
             <label class="acomodolabel" for="correo">Correo</label>
-            <input class="name-color" type="email" id="correo" />
+            <input name="email" class="name-color" type="email" id="correo" />
         </div>
+        <input type="checkbox" value="hola" name="hola">
         <div class="enviar">
             <input class="name-color2" type="submit" value="enviar" />
         </div>
     </form>
+    <script src="assets\js\main.js"></script>
 </body>
 
 </html>
