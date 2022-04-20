@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/formulario.css" />
+    <title>Formularios</title>
+</head>
+
+<body>
+    <!--   
+        ----------------------tipo line-----------------------
+        <form> 
+        <input type="text" placeholder="nombre" required>
+        <input type="text" placeholder="apellido" size="10">
+        <input type="text" value="santiago">
+        <input type="text" minlength="6" maxlength="10">
+        <input type="submit" value="mandar">
+        <br>
+        <!-- ----------------input tipo number----------- 
+        <input type="number" min="10" max="19" step="2">
+        <!-- ---------------------date-------------------- 
+        <input type="date">
+        <input type="month">
+        <input type="week" >
+        <input type="datetime-local" >
+        <input type="time">
+        <!-- ----------------tipo password--------------- 
+        <input type="password">
+        ---------- -----------archivo--------------------
+        <input type="file">
+        --------------------rango-----------------------
+        <input type="range">
+        -------------------tipo check------------------
+        <input type="checkbox" value="hola" name="">
+        <input type="radio" name="">
+        --------------------reset-----------------------
+        <input type="reset" value="limpiar">
+        ------------------------email--------------------
+        <input type="email" required>
+        <!-- ---------------menu de opciones----------------- 
+        <select name="" id="">
+        <option value="">uno</option>
+        </select>
+        ---------------------color----------------------------
+        <input type="color"  id="color" value="#fff000">
+        --------------------cuadro de texto----------------
+        <textarea cols="30" rows="10"></textarea>
+    </form> 
+-->
+    <!-- dom inicio -->
+    <script>
+        const color = document.querySelector("#color");
+        console.log(color);
+        color.addEventListener("change", function (e) {
+            document.body.style.backgroundColor = e.target.value;
+        });
+    </script>
+    <hr />
+    <h1>Formulario</h1>
+    <form class="formulario">
+        <div class="nombre">
+            <label class="acomodolabel" for="name">Nombre</label>
+            <input class="name-color" id="name" type="text" placeholder="name" required />
+        </div>
+        <div class="apellido">
+            <label class="acomodolabel" for="ape">Apellido</label>
+            <input class="name-color" id="ape" type="text" placeholder="apellido" />
+        </div>
+        <div class="pass">
+            <label class="acomodolabel" for="pasw">password</label>
+            <input class="name-color" id="pasw" type="password" placeholder="contraseña" required />
+        </div>
+        <div class="email">
+            <label class="acomodolabel" for="correo">Correo</label>
+            <input class="name-color" type="email" id="correo" />
+        </div>
+        <div class="enviar">
+            <input class="name-color2" type="submit" value="enviar" />
+        </div>
+    </form>
+</body>
+
+</html>

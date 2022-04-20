@@ -1,0 +1,33 @@
+body{
+background-color: rgba(198,217,238,255);
+font-family:sans-serif;
+text-align: justify;
+}
+span{
+    color: red;
+    font-family: cursive;
+}
+h1{
+    text-align: right;
+}
+h2{
+font-family: monospace;
+font-size: 3rem;
+font-variant: small-caps; /* varia la forma en a mayusculas con la primer letra mas grande  */
+}
+strong{
+ color: chocolate;   
+}
+p{
+    line-height: 200%;/* separado entre lineas */
+    text-indent: 3rem;/* deja un espacio al iniciar un parrafo */
+}
+.time{
+    color: darkorange;
+
+}
+em{
+    background-color: white;
+    color: green;
+    font-style: italic;/* tipo de letra normal o cursiva */
+}

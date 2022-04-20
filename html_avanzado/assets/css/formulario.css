@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+.formulario{
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: azure;
+    width: 300px;
+    margin: 0 auto;
+}
+.name-color{
+    background-color: rgb(153, 250, 250);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+}
+.name-color2{
+    background-color: rgb(169, 169, 199);
+    border: none;
+    border-radius: 10px;
+}
+.acomodolabel{
+    display: inline-block;
+    width: 100px;
+}

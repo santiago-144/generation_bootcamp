@@ -1,0 +1,35 @@
+.formcolor{
+    color: white;
+    border:5px solid #add8e6 ;
+    background-color:rgba(0,128,0,255);
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 5px;
+
+}
+.entrada1{
+    border:1px solid #ff0000;
+    width:190px;
+}
+.center{
+    width:75%;
+    margin:auto;
+    box-sizing: border-box;
+}
+.acomodo{
+    display: inline-block;
+    width: 60px;
+    margin-left: 40px;
+}
+.borde{
+    width: 196px;
+}
+.enviar
+{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;;
+    padding: 12px;
+    border-top: 1px dashed white;
+    width: 150px;
+}

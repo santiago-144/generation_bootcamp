@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/ejercicio2.css">
+    <title>Ejercicio 2</title>
+  </head>
+  <body>
+     
+    <form class="formcolor">
+       <div class="center">
+        <div>
+            <h5>Datos del comprador</h5>
+        </div>
+        <!-- ------------------------------------ -->
+      <div class="cajar">
+        <label class="acomodo" for="">Nombre</label>
+        <input type="text" class="entrada1" placeholder="Escribe tu nombre completo" pattern="[a-z]{1-20}" required />
+      </div>
+      <div class="cajar">
+        <label class="acomodo" for="">Email</label>
+        <input type="email" class="entrada1" placeholder="ejemplo@um.es" required />
+      </div>
+      <div class="cajar">
+        <label class="acomodo" for="">Teléfono</label>
+        <input type="tel" pattern="[0-9]{10}" class="entrada1" placeholder="Ej.+5565203212" required/>
+      </div>
+      <div class="cajar">
+        <label class="acomodo" for="">País</label>
+       <!--  <input type="text" class="entrada1" /> -->
+        <select class="entrada1 borde ">
+            <option value="México">México</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Argentina">Argentina</option>
+        </select>
+      </div>
+<!-- ------------------------------------------------ -->
+      <div>
+        <h5>Datos de la tarjeta de credito o debito</h5>
+      </div>
+      <div class="cajar">
+        <label  class="acomodo" for="">Número</label>
+        <input type="text" class="entrada1" placeholder="Ej. 5555-4444-3333-2222" pattern="[0-9]{16}" required />
+      </div>
+      <div class="cajar">
+        <label class="acomodo" for="">Nombre</label>
+        <input type="text" class="entrada1" 
+        placeholder="Nombre que figura en la tarjeta" required/>
+      </div>
+      </div>
+      <!-- ------------------------------------------ -->
+      <div class="enviar">
+        <input class="enviar1" type="submit" value="Confirma pedido" />
+      </div>
+    </form>
+  </body>
+</html>
