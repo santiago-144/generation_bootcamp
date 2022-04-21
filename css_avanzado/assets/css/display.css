@@ -1,0 +1,29 @@
+.padre{
+    width: 80%;
+    height: 60vh;
+    border: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+  /*   flex-direction:column; */
+    align-items:center;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+/* si los elemnotios tienen la propiedad aplicada justify-content:acomodo horizontal
+align-itemas: verticalmente */
+.hijo{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+   
+}
+.div1{
+    background-color: aqua;
+}
+.div2
+{
+    background-color: orange;
+}
+.div3{
+    background-color: pink;
+}
