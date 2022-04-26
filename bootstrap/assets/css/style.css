@@ -7,7 +7,16 @@ height: 50px;
    
 }
 .img-carrusel{
-    height:calc(100vh-76px);
-    object-fit:cover;
+    height: calc(100vh - 76px);
+    object-fit: cover;
     object-position: center;
+.img-card{
+height: 250px;
+object-fit: cover;
+object-position: center;
+}
+.video-iframe
+{
+    height: 100%;
+    width: 100%;
 }
