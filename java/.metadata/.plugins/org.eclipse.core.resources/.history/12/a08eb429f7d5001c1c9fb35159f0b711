@@ -1,0 +1,29 @@
+package com.perritos;
+
+public class PruebaPerro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Perro perro1=new Perro("Patitas");
+		//atributos
+		
+		perro1.edad=3;
+		perro1.raza="husky";
+		perro1.tamaño="mediano";
+		
+		//metodo
+		perro1.ladrar();
+		
+		Perro perro2=new Perro("Frida");
+		perro2.edad=1;
+		perro2.raza="labrador";
+		perro2.tamaño="grande";
+		
+		perro2.ladrar();
+		
+		}
+
+	}
+
+

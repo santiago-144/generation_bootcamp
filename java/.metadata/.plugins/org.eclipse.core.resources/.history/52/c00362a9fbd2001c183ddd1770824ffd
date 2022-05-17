@@ -1,0 +1,16 @@
+package santiago_prueba;
+
+public class ControlDeFlujo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int edad=18;
+		if (edad>=18) {
+			System.out.println("eres mayor de edad");
+		}
+		else {
+			System.out.println("eres menos de edad"); 
+		}
+	}
+
+}

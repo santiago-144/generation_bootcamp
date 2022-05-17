@@ -1,0 +1,24 @@
+package ciclos;
+
+import javax.swing.JOptionPane;
+
+public class CicloDoWhile {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String clave="pedro";
+		String comparacion=""; 
+		do {
+			 comparacion=JOptionPane.showInputDialog("Introduce la contraseña");
+			 if (!clave.equals(comparacion)) {
+				 System.out.println("la contraseña es incorrecta");
+				 
+			 }
+		} while(clave.equals(comparacion));
+		
+		System.out.println("la contraseña es correcta");
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package com.perritos;
+
+public class Perro {
+	//metodo 
+			public void ladrar() {
+				System.out.println("wooooow");
+			}
+
+}

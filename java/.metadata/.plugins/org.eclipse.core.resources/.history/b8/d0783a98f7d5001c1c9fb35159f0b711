@@ -1,0 +1,25 @@
+package com.perritos;
+
+public class Perro {
+	//atributos o propiedades 
+	String nombre;
+	int edad;
+	String raza;
+	String tamaño;
+	//constructor
+	public Perro(String nombre) {
+		
+		this.nombre=nombre;
+	}
+	
+	//metodo 
+			public void ladrar() {
+				System.out.println(" el perro " + nombre + " hace guauf" );
+			}
+			public int edadPerruna() {
+				return edad*7;
+			}
+		
+	
+
+}

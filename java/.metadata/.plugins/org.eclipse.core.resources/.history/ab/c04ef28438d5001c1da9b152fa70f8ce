@@ -1,0 +1,23 @@
+package ciclos;
+
+import javax.swing.JOptionPane;
+
+public class Ejercicio1Adivinacion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int numero1=10;
+		String numero2="";
+		int numero3=Integer.parseInt(numero2);
+		
+		do {
+			numero2=JOptionPane.showInputDialog("Introduce un numero");
+			
+		}while(numero1!=numero3);
+		
+		System.out.println("felicidades adivinaste el nuemro");
+		
+	}
+
+}

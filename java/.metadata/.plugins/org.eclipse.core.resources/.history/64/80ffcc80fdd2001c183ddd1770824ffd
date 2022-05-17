@@ -1,0 +1,31 @@
+package santiago_prueba;
+
+import java.util.Scanner;
+
+public class ControlDeFlujo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print("cual es tu edad");
+		Scanner sc=new Scanner (System.in);
+		int edad=sc.nextInt();
+		sc.close();
+		
+		if (edad>=18) {
+			
+			if (edad>=60) {
+				System.out.println("Eres un adulto mayor");
+			}
+			else {
+			System.out.println("Eres un joven adulto");
+			}
+			}
+		else {
+			System.out.println("eres menos de edad"); 
+		}
+		
+		String mensaje=(edad>=18)? ("eres mayor de edad x2"):("eres menor de edadx2");
+		System.out.println(mensaje);
+	}
+
+}

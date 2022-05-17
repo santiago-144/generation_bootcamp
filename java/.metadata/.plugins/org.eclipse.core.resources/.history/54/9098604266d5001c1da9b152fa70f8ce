@@ -1,0 +1,49 @@
+package com.ejercicio;
+
+import java.util.Scanner;
+
+public class CalculadoraGeometrica {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("calcular perimetros");
+		Perimetro per=new Perimetro();
+	Scanner sc=new Scanner(System.in);
+	System.out.println("lados del triangulo");
+	System.out.println("l1");
+	double lado1=sc.nextDouble(); 
+	System.out.println("l2");
+	double lado2=sc.nextDouble(); 
+	System.out.println("base");
+	double base3=sc.nextDouble(); 
+	double triangulo=per.perimetroTriangulo(lado1,lado2,base3);
+	System.out.println("el perimetro del triangulo es: " + triangulo);
+	
+	System.out.println("lado del cuadrado");
+	System.out.println("l1");
+	int c1=sc.nextInt(); 
+	int cuadrado=per.perimetroCuadrado(c1);
+	System.out.println("el perimetro del cuadrado es: " + cuadrado);
+	
+	System.out.println("diametro del circulo");
+	System.out.println("D= ");
+	double d1=sc.nextDouble(); 
+	System.out.println("r= ");
+	double r1=sc.nextDouble(); 
+	
+	double circulo=per.perimetroCirculo(d1);
+	System.out.println("el perimetro del circulo es: " + circulo);
+	
+	
+	System.out.println("calcular areas");
+	Areas ar=new Areas();
+	double arT=ar.areaTriangulo(lado1,base3);
+	System.out.println("el area del triangulo es: " + arT);
+	int arC=ar.areaCuadrado(c1);
+	System.out.println("el area del cuadrado es: " + arC);
+	double arCi=ar.areaCirculo(r1);
+	System.out.println("el perimetro del circulo es: " + arCi);
+	}
+
+}

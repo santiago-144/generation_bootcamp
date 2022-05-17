@@ -1,0 +1,15 @@
+package com.perritos;
+
+public class PruebaPerro {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Perro perro1=new Perro();
+		perro1.ladrar();
+		
+		}
+
+	}
+
+
