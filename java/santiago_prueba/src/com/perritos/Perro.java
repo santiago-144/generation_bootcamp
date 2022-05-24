@@ -5,7 +5,7 @@ public class Perro {
 	String nombre;
 	int edad;
 	String raza;
-	String tamaño;
+	String tamano;
 	//constructor
 	public Perro(String nombre,int edad) {
 		
@@ -21,8 +21,8 @@ public class Perro {
 				return edad*7;
 			}
 			
-	//metodos estaticos 
-	// nos permite utilizar el metodo sin instanciar un objeto 
+	//Mutates estaticos 
+	//nos permite utilizar el metodo sin instanciar un objeto 
 	public static void mensaje() {
 		System.out.println("esta es una clase de perro");
 		

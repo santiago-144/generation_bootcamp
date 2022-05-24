@@ -10,7 +10,7 @@ public class PruebaPerro {
 		Perro.mensaje();
 		
 		perro1.raza="husky";
-		perro1.tamaño="mediano";
+		perro1.tamano="mediano";
 		
 		//metodo
 		perro1.ladrar();
@@ -22,7 +22,7 @@ public class PruebaPerro {
 		Perro perro2=new Perro("Frida",1);
 		
 		perro2.raza="labrador";
-		perro2.tamaño="grande";
+		perro2.tamano="grande";
 		
 		perro2.ladrar();
 		
